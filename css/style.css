@@ -1,0 +1,328 @@
+/*fonts*/
+@font-face{
+	font-family: Montserrat-Bold;
+	src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face{
+	font-family: Montserrat-Regular;
+	src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face{
+	font-family: Montserrat-ExtraBold;
+	src: url(../fonts/Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+@font-face{
+	font-family: Montserrat-Medium;
+	src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face{
+	font-family: FrederickatheGreat-Regular;
+	src: url(../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf);
+}
+/*fonts*/
+/*common start*/
+body{
+font-family: Montserrat-Bold;
+font-size: 16.67px;
+font-weight: 700;
+color: #010101;
+}
+
+/*header start*/
+
+header{
+	padding: 30px;
+    background-color: #ffe001;
+}
+.cus_nav{}
+.logo{
+	margin-top: -20px;
+}
+.lbu{
+	width: 100px;
+}
+
+.menu ul li a{
+	padding-right: 50px !important;
+	letter-spacing: 2px;
+    color: #000000 !important;
+}
+.menu ul li:last-child a {
+    padding-right: 0 !important;
+}
+
+.menu ul li a:hover{
+	color: white !important;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-color: #ffe001;
+}
+.ba_text{}
+.ba_h2{
+	padding-top: 70px;
+	font-size: 40px;
+}
+.ba_h1{
+	font-family: FrederickatheGreat-Regular;
+	font-weight: 400;
+	font-size: 90px;
+}
+.ba_p{
+	font-size: 26px;
+}
+.ba_p2{
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+.ba_bt{
+	border: 1px solid;
+}
+.ba_bt:hover{
+	color: white !important;
+}
+/*banner end*/
+
+
+/*choose start*/
+.choose{
+	padding-top: 80px;
+	padding-bottom: 100px;
+	background-color: #e8e6a9;
+}
+.ch_text{}
+.ch_h1{
+	margin-bottom: 30px;
+	font-family: FrederickatheGreat-Regular;
+	font-weight: 400;
+	font-size: 50px;
+}
+.ch_p{
+	font-family: Montserrat-Regular;
+    font-weight: 400;
+}
+.choose_1{
+	padding-top: 50px;
+}
+.choose_h2{
+	padding-top: 40px;
+	font-size: 21px;
+	text-transform: uppercase;
+}
+.choose_p{
+	padding-bottom: 30px;
+	font-family: Montserrat-Regular;
+    font-weight: 400;
+}
+.choose_bt{
+	font-family: Montserrat-Bold;
+    font-size: 16.67px;
+    font-weight: 700;
+    color: #010101;
+    background-color: #ffe001;
+}
+.choose_bt:hover {
+	color: white !important;
+}
+
+/*choose end*/
+/*discover start*/
+.discover{
+	background-color: #e8e6a9;
+	padding-bottom: 70px;
+}
+.dis_h2{
+	font-size: 21px;
+}
+.dis_h1{
+	font-family: FrederickatheGreat-Regular;
+    font-weight: 400;
+    font-size: 42px;
+}
+.dis_p{
+	font-family: Montserrat-Regular;
+    font-weight: 400; 
+}
+/*discover end*/
+/*slider start*/
+.slider{
+	padding-bottom: 50px;
+	background-color: #e8e6a9;
+}
+.cid{
+    bottom: -90px;
+}
+.cid [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffe001;
+}
+/*slider end*/
+/*feature start*/
+.feature{
+	padding-top: 80px;
+	padding-bottom: 50px;
+	background-color: #e8e6a9;
+}
+.fe_1{
+	margin-left: 20px;
+	height: 420px;
+	background-image: url(../images//fe_1.png);
+	position: relative;
+}
+.fe_1_p{
+	margin-left: 30px;
+    padding-top: 25px;
+	font-size: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.fe_1_h2{
+	margin-left: 30px;
+    font-size: 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.feature_2{
+
+}
+
+.fe_2{
+	margin-left: 20px;
+	height: 190px;
+	background-image: url(../images/fe_2.png);
+	position: relative;
+}
+.fe_2_p{
+	margin-left: 30px;
+    padding-top: 25px;
+	font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.fe_2_h2{
+	margin-left: 30px;
+    font-size: 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.fe_3{
+	margin-top: 40px;
+    margin-left: 20px;
+    height: 190px;
+    background-image: url(../images/fe_3.png);
+    position: relative;
+}
+.fe_3_p{
+	margin-left: 30px;
+    padding-top: 25px;
+	font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.fe_3_h2{
+	margin-left: 30px;
+    font-size: 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/*feature end*/
+/*Reservation start*/
+.reservation{
+	padding-top: 50px;
+	padding-bottom: 80px;
+	background-color: #e8e6a9;
+}
+.res_text{}
+.res_p{
+	font-size: 20px;
+    text-transform: uppercase;
+}
+.res_h1{
+	padding-bottom: 50px;
+	font-family: FrederickatheGreat-Regular;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.res_form{
+
+}
+.fo_cu{
+	height: 60px;
+}
+.res_bt{
+	height: 60px;
+	border-radius: 10px;
+	background-color: #ffe001;
+}
+.res_bt:hover{
+	color: #ffffff;
+}
+/*Reservation end*/
+/*footer start*/
+footer{
+	background-image: url(../images/footer.png);
+    position: relative;
+}
+.footer_logo{
+	margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: #ffe001;
+}
+.footer_p{
+	padding-bottom: 80px;
+	font-family: Montserrat-Regular;
+	font-weight: 400;
+	color: #ffffff;
+
+}
+.footer_p2{
+	font-family: Montserrat-Regular;
+	font-weight: 400;
+	color: #ffffff;
+}
+.address{
+	margin-top: 215px;
+    color: #ffffff;
+}
+.add_p{
+	font-family: Montserrat-Regular;
+	font-weight: 400;
+	color: #ffffff;
+}
+.add_i{
+	margin-right: 20px;
+    font-size: 25px;
+    color: #ffe001;
+}
+.footer_icon{
+	    margin-top: 135px;
+}
+.footer_icon ul li i{
+	margin-right: 20px;
+	background-color: white;
+    font-size: 30px;
+    height: 35px;
+    width: 35px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+}
+.footer_icon ul li i:hover {
+	transform: scale(.8);
+	color: #ffe001;
+}
+/*footer end*/
+
+ /*class="sticky-top"*/

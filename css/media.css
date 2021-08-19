@@ -1,0 +1,298 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+	header {
+    padding: 15px;
+}
+
+	.logo {
+    width: 150px;
+}
+
+.lbu {
+    font-size: 15px;
+    width: 50px;
+}
+
+	.menu ul li a {
+    padding: 5px 0!important;
+    font-size: 15px;
+    text-align: right;
+}
+	/*header start*/
+		/*banner*/
+	.ba_h2 {
+    padding-top: 30px;
+    font-size: 20px;
+}
+.ba_h1 {
+    font-size: 45px;
+}
+.ba_p {
+    font-size: 17px;
+}
+.ba_p2 {
+    padding-bottom: 0px;
+    font-size: 16px;
+}
+.ba_bt {
+    margin-bottom: 40px;
+}
+.choose {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.ch_h1 {
+    margin-bottom: 20px;
+    font-size: 38px;
+}
+.choose_p {
+    padding-bottom: 0px;
+}
+.choose_bt {
+    margin-bottom: 15px;
+}
+.dis_h1 {
+    font-size: 30px;
+}
+.dis_p {
+    margin-top: 20px;
+}
+   /*banner*/
+   /*feature*/
+   .fe_1 {
+    margin-bottom: 35px;
+}
+   /*feature*/
+   /*reservation*/
+.res_p {
+    font-size: 16px;
+}
+   .res_h1 {
+    padding-bottom: 35px;
+    font-size: 28px;
+}
+.fo_cu {
+    height: 50px;
+}
+.res_bt {
+    height: 50px;
+    border-radius: 5px;
+}
+    /*reservation*/
+    /*footer*/
+
+    .footer_logo {
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+.footer_p {
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+.footer_p2 {
+    font-size: 13px;
+}
+.address {
+    margin-top: 60px;
+}
+.footer_icon {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.footer_icon ul li i {
+    margin-right: 5px;
+    font-size: 20px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+}
+.add_p {
+    font-size: 14px;
+}
+     /*footer*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	.menu ul li a {
+    padding: 10px 0 !important;
+    text-align: right;
+}
+    .lbu {
+    width: 60px;
+}
+	/*header start*/
+		/*banner*/
+	.ba_h2 {
+    padding-top: 65px;
+    font-size: 30px;
+}
+.ba_h1 {
+    font-size: 70px;
+}
+.ba_p {
+    font-size: 20px;
+}
+.ba_p2 {
+    padding-bottom: 0px;
+    font-size: 16px;
+}
+.ba_bt {
+    margin-bottom: 40px;
+}
+.choose_p {
+    padding-bottom: 0px;
+}
+.choose_bt {
+    margin-bottom: 15px;
+}
+   /*banner*/
+   /*feature*/
+   .fe_1 {
+    margin-bottom: 35px;
+}
+   /*feature*/
+   /*reservation*/
+
+   .res_h1 {
+    padding-bottom: 35px;
+    font-size: 40px;
+}
+.fo_cu {
+    height: 50px;
+}
+.res_bt {
+    height: 50px;
+    border-radius: 5px;
+}
+    /*reservation*/
+    /*footer*/
+
+    .footer_logo {
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+.footer_p {
+    padding-bottom: 40px;
+}
+.address {
+    margin-top: 60px;
+}
+.footer_icon {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.footer_icon ul li i {
+    margin-right: 5px;
+    font-size: 20px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+}
+     /*footer*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	.menu ul li a {
+    padding: 10px 0 !important;
+    text-align: right;
+}
+    .lbu {
+    width: 70px;
+}
+	/*header start*/
+	/*banner*/
+	.ba_h2 {
+    padding-top: 65px;
+    font-size: 30px;
+}
+.ba_h1 {
+    font-size: 70px;
+}
+.ba_p {
+    font-size: 20px;
+}
+.ba_p2 {
+    padding-bottom: 0px;
+    font-size: 16px;
+}
+.ba_bt {
+    margin-bottom: 40px;
+}
+.choose_p {
+    padding-bottom: 0px;
+}
+.choose_bt {
+    margin-bottom: 15px;
+}
+   /*banner*/
+   /*feature*/
+   .fe_1 {
+    margin-bottom: 35px;
+}
+   /*feature*/
+   /*reservation*/
+
+   .res_h1 {
+    padding-bottom: 35px;
+    font-size: 40px;
+}
+.fo_cu {
+    height: 50px;
+}
+.res_bt {
+    height: 50px;
+    border-radius: 5px;
+}
+    /*reservation*/
+    /*footer*/
+
+    .footer_logo {
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+.footer_p {
+    padding-bottom: 40px;
+}
+.address {
+    margin-top: 60px;
+}
+.footer_icon {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.footer_icon ul li i {
+    margin-right: 5px;
+    font-size: 20px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+}
+     /*footer*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*footer*/
+.footer_icon {
+    margin-top: 160px;
+}
+/*footer*/
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}
